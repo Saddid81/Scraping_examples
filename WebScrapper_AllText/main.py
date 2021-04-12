@@ -37,7 +37,7 @@ def index():
                 allcomments_html = bs(allcommentsRes.text, "html.parser")
 
 
-                pag_max_num = int(allcomments_html.findAll('div', {'class': "_2MImiq _1Qnn1K"})[0].contents[0].text[-3:])
+                pag_max_num = int(allcomments_html.findAll('div', {'class': "_2MImiq _1Qnn1K"})[0].contents[0].text[10:])
                 baseLink = "https://www.flipkart.com"+ allcomments_html.findAll('a', {'class': "ge-49M"})[0].attrs['href'][:142]
 
                 table = db[searchString]  # creating a collection with the same name as search string. Tables and Collections are analogous.
