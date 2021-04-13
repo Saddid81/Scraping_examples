@@ -1,0 +1,8 @@
+1. Create a new environment
+2. pip install -r requirements.text
+3. To check the Chrome browser is installed in the machine
+4. Check your chrome version ( go to three dot then help then about google chrome )/ in my case Version 89.0.4389.90 (Official Build) (64-bit)
+5. Download the same chrome driver from here  " https://chromedriver.storage.googleapis.com/index.html "
+6. put it inside the same folder of this code. Unzip it there and put the file in the root directory (ImageScrapper/chromedriver)
+for Linux is just chromedriver and for windows is chromedriver.exe
+
